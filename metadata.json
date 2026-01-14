@@ -1,0 +1,7 @@
+{
+  "name": "Verdant Valley Estates - Premium Plotted Development",
+  "description": "A high-converting real estate landing page for a premium plot project featuring AI-powered property consulting.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
