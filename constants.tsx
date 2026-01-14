@@ -48,38 +48,15 @@ export const TIME_SLOTS = [
   '09:00 AM', '10:00 AM', '11:00 AM', '12:00 PM', '02:00 PM', '03:00 PM', '04:00 PM', '05:00 PM'
 ];
 
-export const SEO_STRATEGY = {
-  targetKeywords: [
-    { keyword: "Plots for sale in North Hills", difficulty: "Medium", volume: "2,400/mo" },
-    { keyword: "Residential plots near Riverside County", difficulty: "High", volume: "1,800/mo" },
-    { keyword: "Gated community plots North Hills", difficulty: "Low", volume: "900/mo" },
-    { keyword: "Land for sale in North Hills area", difficulty: "Medium", volume: "3,100/mo" },
-  ],
-  checklist: [
-    { category: "Google Business Profile", items: [
-      "Claim business name 'Verdant Valley Estates'",
-      "Verify address in North Hills, Riverside County",
-      "Upload 20+ High-res site photos and 360-degree drone views",
-      "Collect 5 reviews from existing plot owners",
-      "Post weekly site development updates"
-    ]},
-    { category: "On-Page Optimization", items: [
-      "Optimized Meta Title: Premium Residential Plots for Sale in North Hills | Verdant Valley",
-      "H1 Tag: Your Dream Legacy Starts at Verdant Valley Estates",
-      "ALT tags for all project layout and master plan images",
-      "Internal linking from Developer's main site",
-      "Fast-loading mobile experience (LCP under 2.5s)"
-    ]},
-    { category: "Local Backlinks", items: [
-      "Listing on Riverside County real estate directories",
-      "Guest post on North Hills local news blog",
-      "Press release on Phase 1 project launch",
-      "Partnering with local architectural firms for referrals"
-    ]}
-  ],
-  metaTemplate: {
-    title: "Residential Plots for Sale in North Hills | Verdant Valley Estates",
-    description: "Discover exclusive gated community plots in North Hills, Riverside County. Starting from $99k with world-class amenities like clubhouse, swimming pool & 24/7 security. Reserve your site visit today!",
-    ogImage: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80&w=1200"
-  }
-};
+/** 
+ * CONCEPTUAL MONGODB SCHEMA
+ * 
+ * const BookingSchema = new mongoose.Schema({
+ *   leadId: { type: mongoose.Schema.Types.ObjectId, ref: 'Lead' },
+ *   date: { type: Date, required: true },
+ *   time: { type: String, required: true },
+ *   status: { type: String, enum: ['Pending', 'Confirmed', 'Completed', 'Rescheduled', 'Cancelled'], default: 'Pending' },
+ *   notes: String,
+ *   createdAt: { type: Date, default: Date.now }
+ * });
+ */
